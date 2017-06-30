@@ -21,6 +21,7 @@
 		2B4BFA9A1F0626D5008D9A99 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA991F0626D5008D9A99 /* Controls.swift */; };
 		2B4BFA9C1F063358008D9A99 /* Funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA9B1F063358008D9A99 /* Funcs.swift */; };
 		2B4BFA9E1F063C3A008D9A99 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA9D1F063C3A008D9A99 /* Closures.swift */; };
+		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		2B4BFA991F0626D5008D9A99 /* Controls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Controls.swift; path = ../../../../../../Documents/Controls.swift; sourceTree = "<group>"; };
 		2B4BFA9B1F063358008D9A99 /* Funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Funcs.swift; path = ../../../../../../Documents/Funcs.swift; sourceTree = "<group>"; };
 		2B4BFA9D1F063C3A008D9A99 /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = ../../../../../../Documents/Closures.swift; sourceTree = "<group>"; };
+		2BAA30A01F064D2F007E1AFC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 		2B4BFA7F1F05EDDF008D9A99 /* 枚举 */ = {
 			isa = PBXGroup;
 			children = (
+				2BAA30A01F064D2F007E1AFC /* Enums.swift */,
 			);
 			name = "枚举";
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 			files = (
 				2B4BFA941F05FD36008D9A99 /* BasicOperator.swift in Sources */,
 				2B4BFA9C1F063358008D9A99 /* Funcs.swift in Sources */,
+				2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */,
 				2B4BFA9E1F063C3A008D9A99 /* Closures.swift in Sources */,
 				2B4BFA4D1F05ED95008D9A99 /* ViewController.swift in Sources */,
 				2B4BFA4B1F05ED95008D9A99 /* AppDelegate.swift in Sources */,

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var controls:Controls = Controls()
     var funcs:Funcs = Funcs()
     var closures:Closures = Closures()
-    
+    var enums:Enums = Enums()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         arrays.main()
         controls.main()
         closures.main()
+        enums.main()
     }
     
 
