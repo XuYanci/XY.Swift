@@ -16,12 +16,8 @@
 		2B4BFA6B1F05ED95008D9A99 /* XYSwiftExerciseProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA6A1F05ED95008D9A99 /* XYSwiftExerciseProUITests.swift */; };
 		2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA911F05EF4A008D9A99 /* Basic.swift */; };
 		2B4BFA941F05FD36008D9A99 /* BasicOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA931F05FD36008D9A99 /* BasicOperator.swift */; };
-		2B4BFA961F0601DB008D9A99 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA951F0601DB008D9A99 /* Characters.swift */; };
-		2B4BFA981F061F85008D9A99 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA971F061F85008D9A99 /* Arrays.swift */; };
-		2B4BFA9A1F0626D5008D9A99 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA991F0626D5008D9A99 /* Controls.swift */; };
-		2B4BFA9C1F063358008D9A99 /* Funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA9B1F063358008D9A99 /* Funcs.swift */; };
-		2B4BFA9E1F063C3A008D9A99 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA9D1F063C3A008D9A99 /* Closures.swift */; };
 		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
+		AD04666B1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04666A1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +53,8 @@
 		2B4BFA6C1F05ED95008D9A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B4BFA911F05EF4A008D9A99 /* Basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
 		2B4BFA931F05FD36008D9A99 /* BasicOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicOperator.swift; sourceTree = "<group>"; };
-		2B4BFA951F0601DB008D9A99 /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Characters.swift; path = ../../../../../../Documents/Characters.swift; sourceTree = "<group>"; };
-		2B4BFA971F061F85008D9A99 /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Arrays.swift; path = ../../../../../../Documents/Arrays.swift; sourceTree = "<group>"; };
-		2B4BFA991F0626D5008D9A99 /* Controls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Controls.swift; path = ../../../../../../Documents/Controls.swift; sourceTree = "<group>"; };
-		2B4BFA9B1F063358008D9A99 /* Funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Funcs.swift; path = ../../../../../../Documents/Funcs.swift; sourceTree = "<group>"; };
-		2B4BFA9D1F063C3A008D9A99 /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = ../../../../../../Documents/Closures.swift; sourceTree = "<group>"; };
 		2BAA30A01F064D2F007E1AFC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		AD04666A1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolOrientedProgramming.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +105,8 @@
 		2B4BFA491F05ED95008D9A99 /* XYSwiftExercisePro */ = {
 			isa = PBXGroup;
 			children = (
+				AD0466691F09117400BF4B93 /* FunctionsProgramming */,
+				AD0466681F09116A00BF4B93 /* POP */,
 				2B4BFA901F05EEAB008D9A99 /* 高级运算符 */,
 				2B4BFA8F1F05EEA5008D9A99 /* 访问控制 */,
 				2B4BFA8E1F05EE96008D9A99 /* 泛型 */,
@@ -185,7 +179,6 @@
 		2B4BFA7A1F05EDB3008D9A99 /* 字符串和字符 */ = {
 			isa = PBXGroup;
 			children = (
-				2B4BFA951F0601DB008D9A99 /* Characters.swift */,
 			);
 			name = "字符串和字符";
 			sourceTree = "<group>";
@@ -193,7 +186,6 @@
 		2B4BFA7B1F05EDC6008D9A99 /* 集合类型 */ = {
 			isa = PBXGroup;
 			children = (
-				2B4BFA971F061F85008D9A99 /* Arrays.swift */,
 			);
 			name = "集合类型";
 			sourceTree = "<group>";
@@ -201,7 +193,6 @@
 		2B4BFA7C1F05EDCE008D9A99 /* 控制流 */ = {
 			isa = PBXGroup;
 			children = (
-				2B4BFA991F0626D5008D9A99 /* Controls.swift */,
 			);
 			name = "控制流";
 			sourceTree = "<group>";
@@ -209,7 +200,6 @@
 		2B4BFA7D1F05EDD3008D9A99 /* 函数 */ = {
 			isa = PBXGroup;
 			children = (
-				2B4BFA9B1F063358008D9A99 /* Funcs.swift */,
 			);
 			name = "函数";
 			sourceTree = "<group>";
@@ -217,7 +207,6 @@
 		2B4BFA7E1F05EDD9008D9A99 /* 闭包 */ = {
 			isa = PBXGroup;
 			children = (
-				2B4BFA9D1F063C3A008D9A99 /* Closures.swift */,
 			);
 			name = "闭包";
 			sourceTree = "<group>";
@@ -347,6 +336,21 @@
 			children = (
 			);
 			name = "高级运算符";
+			sourceTree = "<group>";
+		};
+		AD0466681F09116A00BF4B93 /* POP */ = {
+			isa = PBXGroup;
+			children = (
+				AD04666A1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift */,
+			);
+			name = POP;
+			sourceTree = "<group>";
+		};
+		AD0466691F09117400BF4B93 /* FunctionsProgramming */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FunctionsProgramming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,15 +488,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4BFA941F05FD36008D9A99 /* BasicOperator.swift in Sources */,
-				2B4BFA9C1F063358008D9A99 /* Funcs.swift in Sources */,
 				2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */,
-				2B4BFA9E1F063C3A008D9A99 /* Closures.swift in Sources */,
 				2B4BFA4D1F05ED95008D9A99 /* ViewController.swift in Sources */,
+				AD04666B1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift in Sources */,
 				2B4BFA4B1F05ED95008D9A99 /* AppDelegate.swift in Sources */,
-				2B4BFA9A1F0626D5008D9A99 /* Controls.swift in Sources */,
-				2B4BFA981F061F85008D9A99 /* Arrays.swift in Sources */,
 				2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */,
-				2B4BFA961F0601DB008D9A99 /* Characters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
