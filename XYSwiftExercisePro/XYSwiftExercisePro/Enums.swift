@@ -45,6 +45,22 @@ class Enums: NSObject {
         }
         
         // MARK - 关联值
+        // 可以定义Swift枚举来存储任意类型的关联值，如果需要的话，每个枚举成员的关联值类型可以各不相同。
+        // 同一时间只能存储这两个值中的一个
+        enum Barcode {
+            case upc(Int,Int,Int,Int)
+            case qrCode(String)
+        }
         
+        var productBarCode = Barcode.upc(8, 85909, 52116, 3)
+        productBarCode = .qrCode("ABCDEFGHIJKLMNOP")
+        
+        switch productBarCode {
+        case let .upc(numberSystem,manufacturer,product,check):
+            print("UPC: \(numberSystem),\(manufacturer),\(product),\(check).")
+        case let .qrCode(productCode):
+            print("QR code: \(productCode).")
+    
+        }
     }
 }

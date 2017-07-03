@@ -208,20 +208,20 @@ class ProtocolOrientedProgramming: NSObject {
 //        let hockeyRecord: TeamRecord = HockeyRecord(wins: 8, losses: 7, ties: 1)
 //        hockeyRecord.winningPercentage() // .500
     
-        var food:Food = Food(name: "foot", clearance: false, msrp: 100.0,discount: 0.5)
-        var houseHood:HouseHold = HouseHold(name: "household",
+        let food:Food = Food(name: "foot", clearance: false, msrp: 100.0,discount: 0.5)
+        let houseHood:HouseHold = HouseHold(name: "household",
                                             clearance: false,
                                             msrp: 100.0,
                                             salesTax: 7.5 / 100.0,
                                             discount: 0.25)
         
-        var cloth:Cloth = Cloth(name: "cloth",
+        let cloth:Cloth = Cloth(name: "cloth",
                                 clearance: false,
                                 msrp: 100.0,
                                 salesTax: 7.5 / 100.0,
                                 discount: 0.25)
         
-        var electronics:Electronics = Electronics(name: "electronics",
+        let electronics:Electronics = Electronics(name: "electronics",
                                                   clearance: false,
                                                   msrp: 100.0,
                                                   salesTax: 7.5 / 100.0,

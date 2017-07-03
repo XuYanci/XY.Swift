@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     var closures:Closures = Closures()
     var enums:Enums = Enums()
     var protocolOrientedProgramming:ProtocolOrientedProgramming = ProtocolOrientedProgramming()
+    var functionalProgramming:FunctionalProgramming = FunctionalProgramming()
+    var classes:Classes = Classes()
+    var properties:Properties = Properties()
+    var methodes:Methodes = Methodes()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,15 +34,15 @@ class ViewController: UIViewController {
         closures.main()
         enums.main()
         protocolOrientedProgramming.main()
+        functionalProgramming.main()
+        classes.main()
+        properties.main()
+        methodes.main()
     }
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    
-
 }
 
