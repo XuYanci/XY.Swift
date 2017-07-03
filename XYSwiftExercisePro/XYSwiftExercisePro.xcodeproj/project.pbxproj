@@ -17,6 +17,11 @@
 		2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA911F05EF4A008D9A99 /* Basic.swift */; };
 		2B4BFA941F05FD36008D9A99 /* BasicOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA931F05FD36008D9A99 /* BasicOperator.swift */; };
 		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
+		2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A21F09C8E2007E1AFC /* Characters.swift */; };
+		2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A41F09C8E8007E1AFC /* Arrays.swift */; };
+		2BAA30A71F09C8ED007E1AFC /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A61F09C8ED007E1AFC /* Controls.swift */; };
+		2BAA30A91F09C8F3007E1AFC /* Funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A81F09C8F3007E1AFC /* Funcs.swift */; };
+		2BAA30AB1F09C8F7007E1AFC /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30AA1F09C8F7007E1AFC /* Closures.swift */; };
 		AD04666B1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04666A1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +59,11 @@
 		2B4BFA911F05EF4A008D9A99 /* Basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
 		2B4BFA931F05FD36008D9A99 /* BasicOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicOperator.swift; sourceTree = "<group>"; };
 		2BAA30A01F064D2F007E1AFC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		2BAA30A21F09C8E2007E1AFC /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		2BAA30A41F09C8E8007E1AFC /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		2BAA30A61F09C8ED007E1AFC /* Controls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		2BAA30A81F09C8F3007E1AFC /* Funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Funcs.swift; sourceTree = "<group>"; };
+		2BAA30AA1F09C8F7007E1AFC /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		AD04666A1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolOrientedProgramming.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +189,7 @@
 		2B4BFA7A1F05EDB3008D9A99 /* 字符串和字符 */ = {
 			isa = PBXGroup;
 			children = (
+				2BAA30A21F09C8E2007E1AFC /* Characters.swift */,
 			);
 			name = "字符串和字符";
 			sourceTree = "<group>";
@@ -186,6 +197,7 @@
 		2B4BFA7B1F05EDC6008D9A99 /* 集合类型 */ = {
 			isa = PBXGroup;
 			children = (
+				2BAA30A41F09C8E8007E1AFC /* Arrays.swift */,
 			);
 			name = "集合类型";
 			sourceTree = "<group>";
@@ -193,6 +205,7 @@
 		2B4BFA7C1F05EDCE008D9A99 /* 控制流 */ = {
 			isa = PBXGroup;
 			children = (
+				2BAA30A61F09C8ED007E1AFC /* Controls.swift */,
 			);
 			name = "控制流";
 			sourceTree = "<group>";
@@ -200,6 +213,7 @@
 		2B4BFA7D1F05EDD3008D9A99 /* 函数 */ = {
 			isa = PBXGroup;
 			children = (
+				2BAA30A81F09C8F3007E1AFC /* Funcs.swift */,
 			);
 			name = "函数";
 			sourceTree = "<group>";
@@ -207,6 +221,7 @@
 		2B4BFA7E1F05EDD9008D9A99 /* 闭包 */ = {
 			isa = PBXGroup;
 			children = (
+				2BAA30AA1F09C8F7007E1AFC /* Closures.swift */,
 			);
 			name = "闭包";
 			sourceTree = "<group>";
@@ -488,11 +503,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4BFA941F05FD36008D9A99 /* BasicOperator.swift in Sources */,
+				2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */,
+				2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */,
 				2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */,
+				2BAA30A71F09C8ED007E1AFC /* Controls.swift in Sources */,
 				2B4BFA4D1F05ED95008D9A99 /* ViewController.swift in Sources */,
 				AD04666B1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift in Sources */,
 				2B4BFA4B1F05ED95008D9A99 /* AppDelegate.swift in Sources */,
 				2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */,
+				2BAA30A91F09C8F3007E1AFC /* Funcs.swift in Sources */,
+				2BAA30AB1F09C8F7007E1AFC /* Closures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
