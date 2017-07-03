@@ -35,6 +35,34 @@ struct Point1 {
     }
 }
 
+struct LevelTracker {
+    static var highestUnlockedLevel = 1
+    var currentLevel = 1
+    
+    static func unlock(_ level:Int) {
+        if level > highestUnlockedLevel {
+            highestUnlockedLevel = level
+        }
+    }
+    
+    static func isUnlocked(_ level:Int) -> Bool {
+        return level <= highestUnlockedLevel
+    }
+    
+    @discardableResult mutating func advance(to level:Int) -> Bool {
+        if LevelTracker.isUnlocked(level) {
+            currentLevel = level
+            return true
+        }
+        else {
+            return false
+        }
+    }
+}
+
+/** Wait for 类型方法 */
+
+
 class Methodes: NSObject {
     func main() {
         let counter = Counter()
@@ -49,7 +77,6 @@ class Methodes: NSObject {
         
         var somePoint1 = Point1(x: 1.0, y: 1.0)
         somePoint1.moveByX(deltaX: 2.0, y: 3.0)
-        
 
     }
 }
