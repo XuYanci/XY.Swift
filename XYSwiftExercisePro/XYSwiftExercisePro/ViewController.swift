@@ -22,6 +22,9 @@ class ViewController: UIViewController {
     var classes:Classes = Classes()
     var properties:Properties = Properties()
     var methodes:Methodes = Methodes()
+    var subscripts:Subscripts = Subscripts()
+    var inheritances:Inheritances = Inheritances()
+    var buildProgresses:BuildProgresses = BuildProgresses()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,6 +41,9 @@ class ViewController: UIViewController {
         classes.main()
         properties.main()
         methodes.main()
+        subscripts.main()
+        inheritances.main()
+        buildProgresses.main()
     }
     
     override func didReceiveMemoryWarning() {

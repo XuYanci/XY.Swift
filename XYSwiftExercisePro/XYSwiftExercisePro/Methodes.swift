@@ -8,6 +8,8 @@
 
 import UIKit
 
+// 结构体和枚举是值类型。默认情况下，值类型的属性不能在它的实例方法中被修改。
+// mutating , 允许修改属性
 
 
 class Counter {
@@ -60,7 +62,6 @@ struct LevelTracker {
     }
 }
 
-/** Wait for 类型方法 */
 
 
 class Methodes: NSObject {
