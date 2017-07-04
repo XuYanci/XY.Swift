@@ -24,7 +24,8 @@ class ViewController: UIViewController {
     var methodes:Methodes = Methodes()
     var subscripts:Subscripts = Subscripts()
     var inheritances:Inheritances = Inheritances()
-    var buildProgresses:BuildProgresses = BuildProgresses()
+    var inits:Inits = Inits()
+    var deinits:DeInits = DeInits()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +44,8 @@ class ViewController: UIViewController {
         methodes.main()
         subscripts.main()
         inheritances.main()
-        buildProgresses.main()
+        inits.main()
+        deinits.main()
     }
     
     override func didReceiveMemoryWarning() {

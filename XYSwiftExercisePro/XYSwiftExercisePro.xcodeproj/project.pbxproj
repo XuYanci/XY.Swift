@@ -21,7 +21,8 @@
 		2B61C8DC1F0A2BC100D9E7B9 /* Methodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C8DB1F0A2BC100D9E7B9 /* Methodes.swift */; };
 		2B61C8DE1F0B266400D9E7B9 /* Subscripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C8DD1F0B266400D9E7B9 /* Subscripts.swift */; };
 		2B61C8E01F0B279D00D9E7B9 /* Inheritances.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C8DF1F0B279D00D9E7B9 /* Inheritances.swift */; };
-		2B61C8E21F0B313D00D9E7B9 /* BuildProgresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C8E11F0B313D00D9E7B9 /* BuildProgresses.swift */; };
+		2B61C8E21F0B313D00D9E7B9 /* Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C8E11F0B313D00D9E7B9 /* Inits.swift */; };
+		2B6BD59E1F0B436D002FC2B3 /* DeInits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6BD59D1F0B436D002FC2B3 /* DeInits.swift */; };
 		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
 		2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A21F09C8E2007E1AFC /* Characters.swift */; };
 		2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A41F09C8E8007E1AFC /* Arrays.swift */; };
@@ -70,7 +71,8 @@
 		2B61C8DB1F0A2BC100D9E7B9 /* Methodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Methodes.swift; sourceTree = "<group>"; };
 		2B61C8DD1F0B266400D9E7B9 /* Subscripts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscripts.swift; sourceTree = "<group>"; };
 		2B61C8DF1F0B279D00D9E7B9 /* Inheritances.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inheritances.swift; sourceTree = "<group>"; };
-		2B61C8E11F0B313D00D9E7B9 /* BuildProgresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildProgresses.swift; sourceTree = "<group>"; };
+		2B61C8E11F0B313D00D9E7B9 /* Inits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inits.swift; sourceTree = "<group>"; };
+		2B6BD59D1F0B436D002FC2B3 /* DeInits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeInits.swift; sourceTree = "<group>"; };
 		2BAA30A01F064D2F007E1AFC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		2BAA30A21F09C8E2007E1AFC /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		2BAA30A41F09C8E8007E1AFC /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		2B4BFA491F05ED95008D9A99 /* XYSwiftExercisePro */ = {
 			isa = PBXGroup;
 			children = (
+				2B6BD59F1F0B6A37002FC2B3 /* SnapKit */,
 				AD0466691F09117400BF4B93 /* FunctionsProgramming */,
 				AD0466681F09116A00BF4B93 /* POP */,
 				2B4BFA901F05EEAB008D9A99 /* 高级运算符 */,
@@ -291,7 +294,7 @@
 		2B4BFA851F05EE00008D9A99 /* 构造过程 */ = {
 			isa = PBXGroup;
 			children = (
-				2B61C8E11F0B313D00D9E7B9 /* BuildProgresses.swift */,
+				2B61C8E11F0B313D00D9E7B9 /* Inits.swift */,
 			);
 			name = "构造过程";
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 		2B4BFA861F05EE4A008D9A99 /* 析构过程 */ = {
 			isa = PBXGroup;
 			children = (
+				2B6BD59D1F0B436D002FC2B3 /* DeInits.swift */,
 			);
 			name = "析构过程";
 			sourceTree = "<group>";
@@ -371,6 +375,13 @@
 			children = (
 			);
 			name = "高级运算符";
+			sourceTree = "<group>";
+		};
+		2B6BD59F1F0B6A37002FC2B3 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SnapKit;
 			sourceTree = "<group>";
 		};
 		AD0466681F09116A00BF4B93 /* POP */ = {
@@ -526,7 +537,7 @@
 				2B4BFA941F05FD36008D9A99 /* BasicOperator.swift in Sources */,
 				2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */,
 				2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */,
-				2B61C8E21F0B313D00D9E7B9 /* BuildProgresses.swift in Sources */,
+				2B61C8E21F0B313D00D9E7B9 /* Inits.swift in Sources */,
 				2B61C8D81F0A180E00D9E7B9 /* Classes.swift in Sources */,
 				2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */,
 				2BC4AEF01F09F163004FF963 /* FunctionalProgramming.swift in Sources */,
@@ -538,6 +549,7 @@
 				2B4BFA4B1F05ED95008D9A99 /* AppDelegate.swift in Sources */,
 				2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */,
 				2B61C8DE1F0B266400D9E7B9 /* Subscripts.swift in Sources */,
+				2B6BD59E1F0B436D002FC2B3 /* DeInits.swift in Sources */,
 				2BAA30A91F09C8F3007E1AFC /* Funcs.swift in Sources */,
 				2B61C8E01F0B279D00D9E7B9 /* Inheritances.swift in Sources */,
 				2BAA30AB1F09C8F7007E1AFC /* Closures.swift in Sources */,

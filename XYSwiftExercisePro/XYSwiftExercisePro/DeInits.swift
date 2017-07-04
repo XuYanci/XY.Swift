@@ -1,5 +1,5 @@
 //
-//  BuildProgresses.swift
+//  DeInits.swift
 //  XYSwiftExercisePro
 //
 //  Created by tdw on 2017/7/4.
@@ -8,9 +8,10 @@
 
 import UIKit
 
+class DeInits: NSObject {
 
-class BuildProgresses: NSObject {
     func main() {
         
     }
 }
+
