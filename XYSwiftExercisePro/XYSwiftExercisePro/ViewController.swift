@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 class ViewController: UIViewController {
     
     var basic:Basic = Basic()
@@ -26,6 +27,7 @@ class ViewController: UIViewController {
     var inheritances:Inheritances = Inheritances()
     var inits:Inits = Inits()
     var deinits:DeInits = DeInits()
+    var vfl:VFL = VFL()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,6 +48,9 @@ class ViewController: UIViewController {
         inheritances.main()
         inits.main()
         deinits.main()
+        vfl.main(superView: self.view)
+  
+        
     }
     
     override func didReceiveMemoryWarning() {
