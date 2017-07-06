@@ -1,0 +1,6 @@
+framework module Pods_defaults_XYSwiftExercisePro {
+  umbrella header "Pods-defaults-XYSwiftExercisePro-umbrella.h"
+
+  export *
+  module * { export * }
+}

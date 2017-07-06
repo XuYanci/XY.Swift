@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AC098A70D83282B82D022CC /* Pods_defaults_XYSwiftExercisePro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8883A113E98CE2CAA3D43177 /* Pods_defaults_XYSwiftExercisePro.framework */; };
 		2B4BFA4B1F05ED95008D9A99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA4A1F05ED95008D9A99 /* AppDelegate.swift */; };
 		2B4BFA4D1F05ED95008D9A99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BFA4C1F05ED95008D9A99 /* ViewController.swift */; };
 		2B4BFA501F05ED95008D9A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BFA4E1F05ED95008D9A99 /* Main.storyboard */; };
@@ -24,6 +25,11 @@
 		2B61C8E21F0B313D00D9E7B9 /* Inits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B61C8E11F0B313D00D9E7B9 /* Inits.swift */; };
 		2B6BD59E1F0B436D002FC2B3 /* DeInits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6BD59D1F0B436D002FC2B3 /* DeInits.swift */; };
 		2B6BD5A51F0B7BBD002FC2B3 /* VFL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6BD5A41F0B7BBD002FC2B3 /* VFL.swift */; };
+		2B8DBB721F0CF26B008E3A87 /* SwifterSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB711F0CF26B008E3A87 /* SwifterSwift.swift */; };
+		2B8DBB741F0CF279008E3A87 /* DynamicColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB731F0CF279008E3A87 /* DynamicColor.swift */; };
+		2B8DBB761F0CF284008E3A87 /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB751F0CF284008E3A87 /* PKHUD.swift */; };
+		2B8DBB781F0CF28D008E3A87 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB771F0CF28D008E3A87 /* Kanna.swift */; };
+		2B8DBB7A1F0CF297008E3A87 /* PermissionScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB791F0CF297008E3A87 /* PermissionScope.swift */; };
 		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
 		2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A21F09C8E2007E1AFC /* Characters.swift */; };
 		2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A41F09C8E8007E1AFC /* Arrays.swift */; };
@@ -52,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09F6DDCDE45CBCC81D2894EC /* Pods-defaults-XYSwiftExercisePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-XYSwiftExercisePro.release.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-XYSwiftExercisePro/Pods-defaults-XYSwiftExercisePro.release.xcconfig"; sourceTree = "<group>"; };
 		2B4BFA471F05ED95008D9A99 /* XYSwiftExercisePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYSwiftExercisePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4BFA4A1F05ED95008D9A99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B4BFA4C1F05ED95008D9A99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +82,11 @@
 		2B61C8E11F0B313D00D9E7B9 /* Inits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inits.swift; sourceTree = "<group>"; };
 		2B6BD59D1F0B436D002FC2B3 /* DeInits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeInits.swift; sourceTree = "<group>"; };
 		2B6BD5A41F0B7BBD002FC2B3 /* VFL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFL.swift; sourceTree = "<group>"; };
+		2B8DBB711F0CF26B008E3A87 /* SwifterSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwifterSwift.swift; sourceTree = "<group>"; };
+		2B8DBB731F0CF279008E3A87 /* DynamicColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicColor.swift; sourceTree = "<group>"; };
+		2B8DBB751F0CF284008E3A87 /* PKHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUD.swift; sourceTree = "<group>"; };
+		2B8DBB771F0CF28D008E3A87 /* Kanna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kanna.swift; sourceTree = "<group>"; };
+		2B8DBB791F0CF297008E3A87 /* PermissionScope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionScope.swift; sourceTree = "<group>"; };
 		2BAA30A01F064D2F007E1AFC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		2BAA30A21F09C8E2007E1AFC /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		2BAA30A41F09C8E8007E1AFC /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
@@ -82,6 +94,8 @@
 		2BAA30A81F09C8F3007E1AFC /* Funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Funcs.swift; sourceTree = "<group>"; };
 		2BAA30AA1F09C8F7007E1AFC /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
 		2BC4AEEF1F09F163004FF963 /* FunctionalProgramming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalProgramming.swift; sourceTree = "<group>"; };
+		702792AA513E5BACB5995404 /* Pods-defaults-XYSwiftExercisePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-XYSwiftExercisePro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-XYSwiftExercisePro/Pods-defaults-XYSwiftExercisePro.debug.xcconfig"; sourceTree = "<group>"; };
+		8883A113E98CE2CAA3D43177 /* Pods_defaults_XYSwiftExercisePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_defaults_XYSwiftExercisePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD04666A1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolOrientedProgramming.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AC098A70D83282B82D022CC /* Pods_defaults_XYSwiftExercisePro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CE7AC1951DEA80030F4DFCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				702792AA513E5BACB5995404 /* Pods-defaults-XYSwiftExercisePro.debug.xcconfig */,
+				09F6DDCDE45CBCC81D2894EC /* Pods-defaults-XYSwiftExercisePro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2B4BFA3E1F05ED95008D9A99 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +141,8 @@
 				2B4BFA5E1F05ED95008D9A99 /* XYSwiftExerciseProTests */,
 				2B4BFA691F05ED95008D9A99 /* XYSwiftExerciseProUITests */,
 				2B4BFA481F05ED95008D9A99 /* Products */,
+				1CE7AC1951DEA80030F4DFCC /* Pods */,
+				43B8684B74E13B32AC14B8C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +159,7 @@
 		2B4BFA491F05ED95008D9A99 /* XYSwiftExercisePro */ = {
 			isa = PBXGroup;
 			children = (
+				2B8DBB701F0CF246008E3A87 /* swiftLibrary */,
 				2B6BD5A31F0B7BB2002FC2B3 /* VFL */,
 				2B6BD59F1F0B6A37002FC2B3 /* SnapKit */,
 				AD0466691F09117400BF4B93 /* FunctionsProgramming */,
@@ -395,6 +422,26 @@
 			name = VFL;
 			sourceTree = "<group>";
 		};
+		2B8DBB701F0CF246008E3A87 /* swiftLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DBB711F0CF26B008E3A87 /* SwifterSwift.swift */,
+				2B8DBB731F0CF279008E3A87 /* DynamicColor.swift */,
+				2B8DBB751F0CF284008E3A87 /* PKHUD.swift */,
+				2B8DBB771F0CF28D008E3A87 /* Kanna.swift */,
+				2B8DBB791F0CF297008E3A87 /* PermissionScope.swift */,
+			);
+			name = swiftLibrary;
+			sourceTree = "<group>";
+		};
+		43B8684B74E13B32AC14B8C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8883A113E98CE2CAA3D43177 /* Pods_defaults_XYSwiftExercisePro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD0466681F09116A00BF4B93 /* POP */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,9 +465,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B4BFA6F1F05ED95008D9A99 /* Build configuration list for PBXNativeTarget "XYSwiftExercisePro" */;
 			buildPhases = (
+				864247714A5619039CB3A9C4 /* [CP] Check Pods Manifest.lock */,
 				2B4BFA431F05ED95008D9A99 /* Sources */,
 				2B4BFA441F05ED95008D9A99 /* Frameworks */,
 				2B4BFA451F05ED95008D9A99 /* Resources */,
+				0CBAB26BC9274DB6B24423FD /* [CP] Embed Pods Frameworks */,
+				4D4D6B9B7C33B05155A90759 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -540,6 +590,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CBAB26BC9274DB6B24423FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-defaults-XYSwiftExercisePro/Pods-defaults-XYSwiftExercisePro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4D6B9B7C33B05155A90759 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-defaults-XYSwiftExercisePro/Pods-defaults-XYSwiftExercisePro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		864247714A5619039CB3A9C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B4BFA431F05ED95008D9A99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -547,6 +645,7 @@
 			files = (
 				2B4BFA941F05FD36008D9A99 /* BasicOperator.swift in Sources */,
 				2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */,
+				2B8DBB7A1F0CF297008E3A87 /* PermissionScope.swift in Sources */,
 				2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */,
 				2B61C8E21F0B313D00D9E7B9 /* Inits.swift in Sources */,
 				2B61C8D81F0A180E00D9E7B9 /* Classes.swift in Sources */,
@@ -555,16 +654,20 @@
 				2B61C8DA1F0A1BFB00D9E7B9 /* Properties.swift in Sources */,
 				2BAA30A71F09C8ED007E1AFC /* Controls.swift in Sources */,
 				2B4BFA4D1F05ED95008D9A99 /* ViewController.swift in Sources */,
+				2B8DBB721F0CF26B008E3A87 /* SwifterSwift.swift in Sources */,
 				2B61C8DC1F0A2BC100D9E7B9 /* Methodes.swift in Sources */,
 				AD04666B1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift in Sources */,
 				2B6BD5A51F0B7BBD002FC2B3 /* VFL.swift in Sources */,
+				2B8DBB761F0CF284008E3A87 /* PKHUD.swift in Sources */,
 				2B4BFA4B1F05ED95008D9A99 /* AppDelegate.swift in Sources */,
 				2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */,
 				2B61C8DE1F0B266400D9E7B9 /* Subscripts.swift in Sources */,
 				2B6BD59E1F0B436D002FC2B3 /* DeInits.swift in Sources */,
 				2BAA30A91F09C8F3007E1AFC /* Funcs.swift in Sources */,
+				2B8DBB741F0CF279008E3A87 /* DynamicColor.swift in Sources */,
 				2B61C8E01F0B279D00D9E7B9 /* Inheritances.swift in Sources */,
 				2BAA30AB1F09C8F7007E1AFC /* Closures.swift in Sources */,
+				2B8DBB781F0CF28D008E3A87 /* Kanna.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +819,7 @@
 		};
 		2B4BFA701F05ED95008D9A99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702792AA513E5BACB5995404 /* Pods-defaults-XYSwiftExercisePro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XYSwiftExercisePro/Info.plist;
@@ -728,6 +832,7 @@
 		};
 		2B4BFA711F05ED95008D9A99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F6DDCDE45CBCC81D2894EC /* Pods-defaults-XYSwiftExercisePro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XYSwiftExercisePro/Info.plist;
