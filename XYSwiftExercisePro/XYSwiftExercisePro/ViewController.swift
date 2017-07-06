@@ -8,6 +8,7 @@
 
 import UIKit
 import Foundation
+
 class ViewController: UIViewController {
     
     var basic:Basic = Basic()
@@ -67,8 +68,7 @@ class ViewController: UIViewController {
         protocols.main()
         template.main()
         accessControl.main()
-        
-        
+      
     }
     
     override func didReceiveMemoryWarning() {
