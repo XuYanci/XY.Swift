@@ -36,6 +36,9 @@
 		2B8DBB821F0E1DE7008E3A87 /* Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB811F0E1DE7008E3A87 /* Templates.swift */; };
 		2B8DBB841F0E21BE008E3A87 /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB831F0E21BE008E3A87 /* AccessControl.swift */; };
 		2B8DBB871F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB861F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift */; };
+		2B8DBB8A1F0E386C008E3A87 /* ObjectOrientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB891F0E386C008E3A87 /* ObjectOrientProtocol.swift */; };
+		2B8DBB8C1F0E3BA4008E3A87 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB8B1F0E3BA4008E3A87 /* AnotherViewController.swift */; };
+		2B8DBB8E1F0E41CA008E3A87 /* OOPOnevCatDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */; };
 		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
 		2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A21F09C8E2007E1AFC /* Characters.swift */; };
 		2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A41F09C8E8007E1AFC /* Arrays.swift */; };
@@ -103,6 +106,9 @@
 		2B8DBB811F0E1DE7008E3A87 /* Templates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Templates.swift; sourceTree = "<group>"; };
 		2B8DBB831F0E21BE008E3A87 /* AccessControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
 		2B8DBB861F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleSystemOfSwift.swift; sourceTree = "<group>"; };
+		2B8DBB891F0E386C008E3A87 /* ObjectOrientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectOrientProtocol.swift; sourceTree = "<group>"; };
+		2B8DBB8B1F0E3BA4008E3A87 /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
+		2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOPOnevCatDemo.swift; sourceTree = "<group>"; };
 		2BAA30A01F064D2F007E1AFC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		2BAA30A21F09C8E2007E1AFC /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		2BAA30A41F09C8E8007E1AFC /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
@@ -179,6 +185,7 @@
 		2B4BFA491F05ED95008D9A99 /* XYSwiftExercisePro */ = {
 			isa = PBXGroup;
 			children = (
+				2B8DBB881F0E30F4008E3A87 /* OOP */,
 				2B8DBB851F0E2A6C008E3A87 /* ModuleSystemOfSwift */,
 				2B8DBB701F0CF246008E3A87 /* swiftLibrary */,
 				2B6BD5A31F0B7BB2002FC2B3 /* VFL */,
@@ -212,6 +219,7 @@
 				2B4BFA781F05EDA2008D9A99 /* 基础部分 */,
 				2B4BFA4A1F05ED95008D9A99 /* AppDelegate.swift */,
 				2B4BFA4C1F05ED95008D9A99 /* ViewController.swift */,
+				2B8DBB8B1F0E3BA4008E3A87 /* AnotherViewController.swift */,
 				2B4BFA4E1F05ED95008D9A99 /* Main.storyboard */,
 				2B4BFA511F05ED95008D9A99 /* Assets.xcassets */,
 				2B4BFA531F05ED95008D9A99 /* LaunchScreen.storyboard */,
@@ -472,6 +480,15 @@
 			name = ModuleSystemOfSwift;
 			sourceTree = "<group>";
 		};
+		2B8DBB881F0E30F4008E3A87 /* OOP */ = {
+			isa = PBXGroup;
+			children = (
+				2B8DBB891F0E386C008E3A87 /* ObjectOrientProtocol.swift */,
+				2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */,
+			);
+			name = OOP;
+			sourceTree = "<group>";
+		};
 		43B8684B74E13B32AC14B8C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -700,6 +717,7 @@
 				2B8DBB871F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift in Sources */,
 				2B8DBB801F0E0E17008E3A87 /* Protocols.swift in Sources */,
 				2B6BD5A51F0B7BBD002FC2B3 /* VFL.swift in Sources */,
+				2B8DBB8A1F0E386C008E3A87 /* ObjectOrientProtocol.swift in Sources */,
 				2B8DBB761F0CF284008E3A87 /* PKHUD.swift in Sources */,
 				2B4BFA4B1F05ED95008D9A99 /* AppDelegate.swift in Sources */,
 				2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */,
@@ -708,9 +726,11 @@
 				ADB2F7201F0DDB7400E72729 /* Errors.swift in Sources */,
 				ADB2F71E1F0DD72F00E72729 /* OptionLink.swift in Sources */,
 				2B6BD59E1F0B436D002FC2B3 /* DeInits.swift in Sources */,
+				2B8DBB8E1F0E41CA008E3A87 /* OOPOnevCatDemo.swift in Sources */,
 				2BAA30A91F09C8F3007E1AFC /* Funcs.swift in Sources */,
 				2B8DBB7C1F0E0745008E3A87 /* Embed.swift in Sources */,
 				2B8DBB741F0CF279008E3A87 /* DynamicColor.swift in Sources */,
+				2B8DBB8C1F0E3BA4008E3A87 /* AnotherViewController.swift in Sources */,
 				2B8DBB841F0E21BE008E3A87 /* AccessControl.swift in Sources */,
 				2B61C8E01F0B279D00D9E7B9 /* Inheritances.swift in Sources */,
 				2BAA30AB1F09C8F7007E1AFC /* Closures.swift in Sources */,

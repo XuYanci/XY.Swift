@@ -38,6 +38,8 @@ class ViewController: UIViewController {
     var protocols:Protocols = Protocols()
     var template: Templates = Templates()
     var accessControl:AccessControl = AccessControl()
+    var oop:ObjectOrientProtocol = ObjectOrientProtocol()
+    var oopOnevCatDemo:OOPOnevCatDemo = OOPOnevCatDemo()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,7 +70,8 @@ class ViewController: UIViewController {
         protocols.main()
         template.main()
         accessControl.main()
-      
+        oop.main()
+        oopOnevCatDemo.main()
     }
     
     override func didReceiveMemoryWarning() {
