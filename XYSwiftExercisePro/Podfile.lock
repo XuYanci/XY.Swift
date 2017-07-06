@@ -1,12 +1,15 @@
 PODS:
+  - SnapKit (3.2.0)
   - SwifterSwift (1.6.4)
 
 DEPENDENCIES:
+  - SnapKit (~> 3.2.0)
   - SwifterSwift (~> 1.6.4)
 
 SPEC CHECKSUMS:
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
   SwifterSwift: 92c73c47c3cbf7d5f788adf6459bf07b5d23d3fb
 
-PODFILE CHECKSUM: 7f7fb8e9b69de8f3da446e4120690886f49c03a2
+PODFILE CHECKSUM: eb1a72e2cb5a8829122bfb045f148b445dc72dbc
 
 COCOAPODS: 1.2.1

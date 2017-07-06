@@ -38,6 +38,10 @@
 		2BAA30AB1F09C8F7007E1AFC /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30AA1F09C8F7007E1AFC /* Closures.swift */; };
 		2BC4AEF01F09F163004FF963 /* FunctionalProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC4AEEF1F09F163004FF963 /* FunctionalProgramming.swift */; };
 		AD04666B1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04666A1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift */; };
+		ADB2F71C1F0DC6D500E72729 /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2F71B1F0DC6D500E72729 /* Arc.swift */; };
+		ADB2F71E1F0DD72F00E72729 /* OptionLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2F71D1F0DD72F00E72729 /* OptionLink.swift */; };
+		ADB2F7201F0DDB7400E72729 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2F71F1F0DDB7400E72729 /* Errors.swift */; };
+		ADB2F7221F0DE97200E72729 /* TypeConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2F7211F0DE97200E72729 /* TypeConvert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +101,10 @@
 		702792AA513E5BACB5995404 /* Pods-defaults-XYSwiftExercisePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-XYSwiftExercisePro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-XYSwiftExercisePro/Pods-defaults-XYSwiftExercisePro.debug.xcconfig"; sourceTree = "<group>"; };
 		8883A113E98CE2CAA3D43177 /* Pods_defaults_XYSwiftExercisePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_defaults_XYSwiftExercisePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD04666A1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolOrientedProgramming.swift; sourceTree = "<group>"; };
+		ADB2F71B1F0DC6D500E72729 /* Arc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		ADB2F71D1F0DD72F00E72729 /* OptionLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionLink.swift; sourceTree = "<group>"; };
+		ADB2F71F1F0DDB7400E72729 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		ADB2F7211F0DE97200E72729 /* TypeConvert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeConvert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,6 +348,7 @@
 		2B4BFA871F05EE61008D9A99 /* 自动引用计数 */ = {
 			isa = PBXGroup;
 			children = (
+				ADB2F71B1F0DC6D500E72729 /* Arc.swift */,
 			);
 			name = "自动引用计数";
 			sourceTree = "<group>";
@@ -347,6 +356,7 @@
 		2B4BFA881F05EE67008D9A99 /* 可选链 */ = {
 			isa = PBXGroup;
 			children = (
+				ADB2F71D1F0DD72F00E72729 /* OptionLink.swift */,
 			);
 			name = "可选链";
 			sourceTree = "<group>";
@@ -354,6 +364,7 @@
 		2B4BFA891F05EE76008D9A99 /* 错误处理 */ = {
 			isa = PBXGroup;
 			children = (
+				ADB2F71F1F0DDB7400E72729 /* Errors.swift */,
 			);
 			name = "错误处理";
 			sourceTree = "<group>";
@@ -361,6 +372,7 @@
 		2B4BFA8A1F05EE7A008D9A99 /* 类型转换 */ = {
 			isa = PBXGroup;
 			children = (
+				ADB2F7211F0DE97200E72729 /* TypeConvert.swift */,
 			);
 			name = "类型转换";
 			sourceTree = "<group>";
@@ -647,6 +659,7 @@
 				2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */,
 				2B8DBB7A1F0CF297008E3A87 /* PermissionScope.swift in Sources */,
 				2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */,
+				ADB2F71C1F0DC6D500E72729 /* Arc.swift in Sources */,
 				2B61C8E21F0B313D00D9E7B9 /* Inits.swift in Sources */,
 				2B61C8D81F0A180E00D9E7B9 /* Classes.swift in Sources */,
 				2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */,
@@ -662,11 +675,14 @@
 				2B4BFA4B1F05ED95008D9A99 /* AppDelegate.swift in Sources */,
 				2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */,
 				2B61C8DE1F0B266400D9E7B9 /* Subscripts.swift in Sources */,
+				ADB2F7201F0DDB7400E72729 /* Errors.swift in Sources */,
+				ADB2F71E1F0DD72F00E72729 /* OptionLink.swift in Sources */,
 				2B6BD59E1F0B436D002FC2B3 /* DeInits.swift in Sources */,
 				2BAA30A91F09C8F3007E1AFC /* Funcs.swift in Sources */,
 				2B8DBB741F0CF279008E3A87 /* DynamicColor.swift in Sources */,
 				2B61C8E01F0B279D00D9E7B9 /* Inheritances.swift in Sources */,
 				2BAA30AB1F09C8F7007E1AFC /* Closures.swift in Sources */,
+				ADB2F7221F0DE97200E72729 /* TypeConvert.swift in Sources */,
 				2B8DBB781F0CF28D008E3A87 /* Kanna.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

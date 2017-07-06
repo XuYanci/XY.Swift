@@ -2,5 +2,6 @@ use_frameworks!
 platform :ios, '8.0'
 abstract_target 'defaults' do
 pod 'SwifterSwift', '~> 1.6.4'
+pod 'SnapKit', '~> 3.2.0'
 target 'XYSwiftExercisePro'
 end

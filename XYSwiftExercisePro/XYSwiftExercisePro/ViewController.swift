@@ -28,7 +28,10 @@ class ViewController: UIViewController {
     var inits:Inits = Inits()
     var deinits:DeInits = DeInits()
     var vfl:VFL = VFL()
-    
+    var arc:Arc = Arc()
+    var optionlink = OptionLink()
+    var errors:Errors = Errors()
+    var typeConvert:TypeConvert = TypeConvert()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -49,8 +52,10 @@ class ViewController: UIViewController {
         inits.main()
         deinits.main()
         vfl.main(superView: self.view)
-  
-        
+        arc.main()
+        optionlink.main()
+        errors.main()
+        typeConvert.main()
     }
     
     override func didReceiveMemoryWarning() {
