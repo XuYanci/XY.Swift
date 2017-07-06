@@ -31,6 +31,10 @@
 		2B8DBB781F0CF28D008E3A87 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB771F0CF28D008E3A87 /* Kanna.swift */; };
 		2B8DBB7A1F0CF297008E3A87 /* PermissionScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB791F0CF297008E3A87 /* PermissionScope.swift */; };
 		2B8DBB7C1F0E0745008E3A87 /* Embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB7B1F0E0745008E3A87 /* Embed.swift */; };
+		2B8DBB7E1F0E0C3F008E3A87 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB7D1F0E0C3F008E3A87 /* Extensions.swift */; };
+		2B8DBB801F0E0E17008E3A87 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB7F1F0E0E17008E3A87 /* Protocols.swift */; };
+		2B8DBB821F0E1DE7008E3A87 /* Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB811F0E1DE7008E3A87 /* Templates.swift */; };
+		2B8DBB841F0E21BE008E3A87 /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB831F0E21BE008E3A87 /* AccessControl.swift */; };
 		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
 		2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A21F09C8E2007E1AFC /* Characters.swift */; };
 		2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A41F09C8E8007E1AFC /* Arrays.swift */; };
@@ -93,6 +97,10 @@
 		2B8DBB771F0CF28D008E3A87 /* Kanna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kanna.swift; sourceTree = "<group>"; };
 		2B8DBB791F0CF297008E3A87 /* PermissionScope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PermissionScope.swift; sourceTree = "<group>"; };
 		2B8DBB7B1F0E0745008E3A87 /* Embed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Embed.swift; sourceTree = "<group>"; };
+		2B8DBB7D1F0E0C3F008E3A87 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2B8DBB7F1F0E0E17008E3A87 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		2B8DBB811F0E1DE7008E3A87 /* Templates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Templates.swift; sourceTree = "<group>"; };
+		2B8DBB831F0E21BE008E3A87 /* AccessControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
 		2BAA30A01F064D2F007E1AFC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		2BAA30A21F09C8E2007E1AFC /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		2BAA30A41F09C8E8007E1AFC /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
@@ -390,6 +398,7 @@
 		2B4BFA8C1F05EE8B008D9A99 /* 扩展 */ = {
 			isa = PBXGroup;
 			children = (
+				2B8DBB7D1F0E0C3F008E3A87 /* Extensions.swift */,
 			);
 			name = "扩展";
 			sourceTree = "<group>";
@@ -397,6 +406,7 @@
 		2B4BFA8D1F05EE92008D9A99 /* 协议 */ = {
 			isa = PBXGroup;
 			children = (
+				2B8DBB7F1F0E0E17008E3A87 /* Protocols.swift */,
 			);
 			name = "协议";
 			sourceTree = "<group>";
@@ -404,6 +414,7 @@
 		2B4BFA8E1F05EE96008D9A99 /* 泛型 */ = {
 			isa = PBXGroup;
 			children = (
+				2B8DBB811F0E1DE7008E3A87 /* Templates.swift */,
 			);
 			name = "泛型";
 			sourceTree = "<group>";
@@ -411,6 +422,7 @@
 		2B4BFA8F1F05EEA5008D9A99 /* 访问控制 */ = {
 			isa = PBXGroup;
 			children = (
+				2B8DBB831F0E21BE008E3A87 /* AccessControl.swift */,
 			);
 			name = "访问控制";
 			sourceTree = "<group>";
@@ -660,6 +672,7 @@
 			files = (
 				2B4BFA941F05FD36008D9A99 /* BasicOperator.swift in Sources */,
 				2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */,
+				2B8DBB821F0E1DE7008E3A87 /* Templates.swift in Sources */,
 				2B8DBB7A1F0CF297008E3A87 /* PermissionScope.swift in Sources */,
 				2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */,
 				ADB2F71C1F0DC6D500E72729 /* Arc.swift in Sources */,
@@ -673,10 +686,12 @@
 				2B8DBB721F0CF26B008E3A87 /* SwifterSwift.swift in Sources */,
 				2B61C8DC1F0A2BC100D9E7B9 /* Methodes.swift in Sources */,
 				AD04666B1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift in Sources */,
+				2B8DBB801F0E0E17008E3A87 /* Protocols.swift in Sources */,
 				2B6BD5A51F0B7BBD002FC2B3 /* VFL.swift in Sources */,
 				2B8DBB761F0CF284008E3A87 /* PKHUD.swift in Sources */,
 				2B4BFA4B1F05ED95008D9A99 /* AppDelegate.swift in Sources */,
 				2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */,
+				2B8DBB7E1F0E0C3F008E3A87 /* Extensions.swift in Sources */,
 				2B61C8DE1F0B266400D9E7B9 /* Subscripts.swift in Sources */,
 				ADB2F7201F0DDB7400E72729 /* Errors.swift in Sources */,
 				ADB2F71E1F0DD72F00E72729 /* OptionLink.swift in Sources */,
@@ -684,6 +699,7 @@
 				2BAA30A91F09C8F3007E1AFC /* Funcs.swift in Sources */,
 				2B8DBB7C1F0E0745008E3A87 /* Embed.swift in Sources */,
 				2B8DBB741F0CF279008E3A87 /* DynamicColor.swift in Sources */,
+				2B8DBB841F0E21BE008E3A87 /* AccessControl.swift in Sources */,
 				2B61C8E01F0B279D00D9E7B9 /* Inheritances.swift in Sources */,
 				2BAA30AB1F09C8F7007E1AFC /* Closures.swift in Sources */,
 				ADB2F7221F0DE97200E72729 /* TypeConvert.swift in Sources */,
