@@ -35,13 +35,12 @@
 		2B8DBB801F0E0E17008E3A87 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB7F1F0E0E17008E3A87 /* Protocols.swift */; };
 		2B8DBB821F0E1DE7008E3A87 /* Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB811F0E1DE7008E3A87 /* Templates.swift */; };
 		2B8DBB841F0E21BE008E3A87 /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB831F0E21BE008E3A87 /* AccessControl.swift */; };
-<<<<<<< Updated upstream
+
 		2B8DBB871F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB861F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift */; };
 		2B8DBB8A1F0E386C008E3A87 /* ObjectOrientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB891F0E386C008E3A87 /* ObjectOrientProtocol.swift */; };
 		2B8DBB8C1F0E3BA4008E3A87 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB8B1F0E3BA4008E3A87 /* AnotherViewController.swift */; };
 		2B8DBB8E1F0E41CA008E3A87 /* OOPOnevCatDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */; };
-=======
->>>>>>> Stashed changes
+
 		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
 		2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A21F09C8E2007E1AFC /* Characters.swift */; };
 		2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A41F09C8E8007E1AFC /* Arrays.swift */; };
@@ -479,7 +478,7 @@
 			name = swiftLibrary;
 			sourceTree = "<group>";
 		};
-<<<<<<< Updated upstream
+
 		2B8DBB851F0E2A6C008E3A87 /* ModuleSystemOfSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -497,8 +496,7 @@
 			name = OOP;
 			sourceTree = "<group>";
 		};
-=======
->>>>>>> Stashed changes
+
 		43B8684B74E13B32AC14B8C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
