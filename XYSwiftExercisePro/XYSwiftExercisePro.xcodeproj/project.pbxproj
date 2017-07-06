@@ -35,10 +35,13 @@
 		2B8DBB801F0E0E17008E3A87 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB7F1F0E0E17008E3A87 /* Protocols.swift */; };
 		2B8DBB821F0E1DE7008E3A87 /* Templates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB811F0E1DE7008E3A87 /* Templates.swift */; };
 		2B8DBB841F0E21BE008E3A87 /* AccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB831F0E21BE008E3A87 /* AccessControl.swift */; };
+<<<<<<< Updated upstream
 		2B8DBB871F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB861F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift */; };
 		2B8DBB8A1F0E386C008E3A87 /* ObjectOrientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB891F0E386C008E3A87 /* ObjectOrientProtocol.swift */; };
 		2B8DBB8C1F0E3BA4008E3A87 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB8B1F0E3BA4008E3A87 /* AnotherViewController.swift */; };
 		2B8DBB8E1F0E41CA008E3A87 /* OOPOnevCatDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */; };
+=======
+>>>>>>> Stashed changes
 		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
 		2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A21F09C8E2007E1AFC /* Characters.swift */; };
 		2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A41F09C8E8007E1AFC /* Arrays.swift */; };
@@ -105,10 +108,12 @@
 		2B8DBB7F1F0E0E17008E3A87 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		2B8DBB811F0E1DE7008E3A87 /* Templates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Templates.swift; sourceTree = "<group>"; };
 		2B8DBB831F0E21BE008E3A87 /* AccessControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessControl.swift; sourceTree = "<group>"; };
+ 
 		2B8DBB861F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleSystemOfSwift.swift; sourceTree = "<group>"; };
 		2B8DBB891F0E386C008E3A87 /* ObjectOrientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectOrientProtocol.swift; sourceTree = "<group>"; };
 		2B8DBB8B1F0E3BA4008E3A87 /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
 		2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOPOnevCatDemo.swift; sourceTree = "<group>"; };
+
 		2BAA30A01F064D2F007E1AFC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		2BAA30A21F09C8E2007E1AFC /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		2BAA30A41F09C8E8007E1AFC /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
@@ -185,8 +190,10 @@
 		2B4BFA491F05ED95008D9A99 /* XYSwiftExercisePro */ = {
 			isa = PBXGroup;
 			children = (
+
 				2B8DBB881F0E30F4008E3A87 /* OOP */,
 				2B8DBB851F0E2A6C008E3A87 /* ModuleSystemOfSwift */,
+
 				2B8DBB701F0CF246008E3A87 /* swiftLibrary */,
 				2B6BD5A31F0B7BB2002FC2B3 /* VFL */,
 				2B6BD59F1F0B6A37002FC2B3 /* SnapKit */,
@@ -472,6 +479,7 @@
 			name = swiftLibrary;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		2B8DBB851F0E2A6C008E3A87 /* ModuleSystemOfSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +497,8 @@
 			name = OOP;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> Stashed changes
 		43B8684B74E13B32AC14B8C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -714,7 +724,6 @@
 				2B8DBB721F0CF26B008E3A87 /* SwifterSwift.swift in Sources */,
 				2B61C8DC1F0A2BC100D9E7B9 /* Methodes.swift in Sources */,
 				AD04666B1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift in Sources */,
-				2B8DBB871F0E2A7E008E3A87 /* ModuleSystemOfSwift.swift in Sources */,
 				2B8DBB801F0E0E17008E3A87 /* Protocols.swift in Sources */,
 				2B6BD5A51F0B7BBD002FC2B3 /* VFL.swift in Sources */,
 				2B8DBB8A1F0E386C008E3A87 /* ObjectOrientProtocol.swift in Sources */,
