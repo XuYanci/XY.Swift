@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     var oopOnevCatDemo:OOPOnevCatDemo = OOPOnevCatDemo()
     var pop:ProtocolOrientedProgramming = ProtocolOrientedProgramming()
     var snapKit:SnapKit = SnapKit()
-    
+    var viper:Viper = Viper()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -76,6 +76,7 @@ class ViewController: UIViewController {
         oopOnevCatDemo.main()
         pop.main()
         snapKit.main(parentView: self.view)
+        viper.main()
     }
     
     override func didReceiveMemoryWarning() {
