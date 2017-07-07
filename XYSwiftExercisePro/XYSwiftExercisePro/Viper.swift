@@ -188,7 +188,8 @@ class MainPresenter:MainModuleInterface {
 
 class MainRouter:RouterInterface {
     var presenter: PresenterInterface?
-
+    var registerRouter:RegisterRouter?
+    var loginRouter:LoginRouter?
 }
 
 class RegisterRouter:RouterInterface {
@@ -229,6 +230,4 @@ class Viper: NSObject {
         mainI.presenter = mainP
         mainR.presenter = mainP
     }
-    
-    
 }
