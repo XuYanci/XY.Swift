@@ -484,7 +484,6 @@
 			isa = PBXGroup;
 			children = (
 				2B8DBB891F0E386C008E3A87 /* ObjectOrientProtocol.swift */,
-				2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */,
 			);
 			name = OOP;
 			sourceTree = "<group>";
@@ -500,6 +499,7 @@
 		AD0466681F09116A00BF4B93 /* POP */ = {
 			isa = PBXGroup;
 			children = (
+				2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */,
 				AD04666A1F0911C300BF4B93 /* ProtocolOrientedProgramming.swift */,
 			);
 			name = POP;
