@@ -40,6 +40,8 @@ class ViewController: UIViewController {
     var accessControl:AccessControl = AccessControl()
     var oop:ObjectOrientProtocol = ObjectOrientProtocol()
     var oopOnevCatDemo:OOPOnevCatDemo = OOPOnevCatDemo()
+    var pop:ProtocolOrientedProgramming = ProtocolOrientedProgramming()
+    var snapKit:SnapKit = SnapKit()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,7 +62,7 @@ class ViewController: UIViewController {
         inheritances.main()
         inits.main()
         deinits.main()
-        vfl.main(superView: self.view)
+        //vfl.main(superView: self.view)
         arc.main()
         optionlink.main()
         errors.main()
@@ -72,6 +74,8 @@ class ViewController: UIViewController {
         accessControl.main()
         oop.main()
         oopOnevCatDemo.main()
+        pop.main()
+        snapKit.main(parentView: self.view)
     }
     
     override func didReceiveMemoryWarning() {

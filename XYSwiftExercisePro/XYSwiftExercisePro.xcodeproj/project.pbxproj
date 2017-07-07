@@ -39,6 +39,7 @@
 		2B8DBB8A1F0E386C008E3A87 /* ObjectOrientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB891F0E386C008E3A87 /* ObjectOrientProtocol.swift */; };
 		2B8DBB8C1F0E3BA4008E3A87 /* AnotherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB8B1F0E3BA4008E3A87 /* AnotherViewController.swift */; };
 		2B8DBB8E1F0E41CA008E3A87 /* OOPOnevCatDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */; };
+		2B8DBB901F0F2EB3008E3A87 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8DBB8F1F0F2EB3008E3A87 /* SnapKit.swift */; };
 		2BAA30A11F064D2F007E1AFC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A01F064D2F007E1AFC /* Enums.swift */; };
 		2BAA30A31F09C8E2007E1AFC /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A21F09C8E2007E1AFC /* Characters.swift */; };
 		2BAA30A51F09C8E8007E1AFC /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAA30A41F09C8E8007E1AFC /* Arrays.swift */; };
@@ -109,6 +110,7 @@
 		2B8DBB891F0E386C008E3A87 /* ObjectOrientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectOrientProtocol.swift; sourceTree = "<group>"; };
 		2B8DBB8B1F0E3BA4008E3A87 /* AnotherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherViewController.swift; sourceTree = "<group>"; };
 		2B8DBB8D1F0E41CA008E3A87 /* OOPOnevCatDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OOPOnevCatDemo.swift; sourceTree = "<group>"; };
+		2B8DBB8F1F0F2EB3008E3A87 /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
 		2BAA30A01F064D2F007E1AFC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		2BAA30A21F09C8E2007E1AFC /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 		2BAA30A41F09C8E8007E1AFC /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
@@ -448,6 +450,7 @@
 		2B6BD59F1F0B6A37002FC2B3 /* SnapKit */ = {
 			isa = PBXGroup;
 			children = (
+				2B8DBB8F1F0F2EB3008E3A87 /* SnapKit.swift */,
 			);
 			name = SnapKit;
 			sourceTree = "<group>";
@@ -726,6 +729,7 @@
 				ADB2F7201F0DDB7400E72729 /* Errors.swift in Sources */,
 				ADB2F71E1F0DD72F00E72729 /* OptionLink.swift in Sources */,
 				2B6BD59E1F0B436D002FC2B3 /* DeInits.swift in Sources */,
+				2B8DBB901F0F2EB3008E3A87 /* SnapKit.swift in Sources */,
 				2B8DBB8E1F0E41CA008E3A87 /* OOPOnevCatDemo.swift in Sources */,
 				2BAA30A91F09C8F3007E1AFC /* Funcs.swift in Sources */,
 				2B8DBB7C1F0E0745008E3A87 /* Embed.swift in Sources */,
