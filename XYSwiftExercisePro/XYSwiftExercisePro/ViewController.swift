@@ -45,6 +45,7 @@ class ViewController: UIViewController {
     var viper:Viper = Viper()
     override func viewDidLoad() {
         super.viewDidLoad()
+      
         // Do any additional setup after loading the view, typically from a nib.
         basic.main()
         basicOperator.main()
