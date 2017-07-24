@@ -8,9 +8,11 @@
 
 import UIKit
 import Foundation
+ 
+
 
 class ViewController: UIViewController {
-    
+ 
     var basic:Basic = Basic()
     var basicOperator:BasicOperator = BasicOperator()
     var character:Characters = Characters()
@@ -78,7 +80,12 @@ class ViewController: UIViewController {
         pop.main()
         snapKit.main(parentView: self.view)
         viper.main()
+        
+  
+   
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
