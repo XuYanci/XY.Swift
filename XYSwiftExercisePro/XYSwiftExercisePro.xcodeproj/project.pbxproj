@@ -54,6 +54,7 @@
 		ADB2F7201F0DDB7400E72729 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2F71F1F0DDB7400E72729 /* Errors.swift */; };
 		ADB2F7221F0DE97200E72729 /* TypeConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB2F7211F0DE97200E72729 /* TypeConvert.swift */; };
 		ADBC377D1F107995000D7FAB /* Faq.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBC377C1F107995000D7FAB /* Faq.swift */; };
+		ADF8A8351F57B810005C6814 /* ProtocolAndTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF8A8341F57B810005C6814 /* ProtocolAndTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,7 @@
 		ADB2F71F1F0DDB7400E72729 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		ADB2F7211F0DE97200E72729 /* TypeConvert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeConvert.swift; sourceTree = "<group>"; };
 		ADBC377C1F107995000D7FAB /* Faq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faq.swift; sourceTree = "<group>"; };
+		ADF8A8341F57B810005C6814 /* ProtocolAndTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolAndTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,11 +193,9 @@
 		2B4BFA491F05ED95008D9A99 /* XYSwiftExercisePro */ = {
 			isa = PBXGroup;
 			children = (
- 
+				ADF8A8331F57B7F9005C6814 /* protocol+template */,
 				2B8DBB911F0F5D36008E3A87 /* Viper */,
-
 				ADBC377B1F107976000D7FAB /* Faq */,
-
 				2B8DBB881F0E30F4008E3A87 /* OOP */,
 				2B8DBB851F0E2A6C008E3A87 /* ModuleSystemOfSwift */,
 				2B8DBB701F0CF246008E3A87 /* swiftLibrary */,
@@ -541,6 +541,14 @@
 			name = Faq;
 			sourceTree = "<group>";
 		};
+		ADF8A8331F57B7F9005C6814 /* protocol+template */ = {
+			isa = PBXGroup;
+			children = (
+				ADF8A8341F57B810005C6814 /* ProtocolAndTemplate.swift */,
+			);
+			name = "protocol+template";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -680,9 +688,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-defaults-XYSwiftExercisePro/Pods-defaults-XYSwiftExercisePro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -710,13 +723,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-defaults-XYSwiftExercisePro-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -753,6 +769,7 @@
 				2B4BFA921F05EF4A008D9A99 /* Basic.swift in Sources */,
 				2B8DBB7E1F0E0C3F008E3A87 /* Extensions.swift in Sources */,
 				2B61C8DE1F0B266400D9E7B9 /* Subscripts.swift in Sources */,
+				ADF8A8351F57B810005C6814 /* ProtocolAndTemplate.swift in Sources */,
 				ADB2F7201F0DDB7400E72729 /* Errors.swift in Sources */,
 				ADB2F71E1F0DD72F00E72729 /* OptionLink.swift in Sources */,
 				2B6BD59E1F0B436D002FC2B3 /* DeInits.swift in Sources */,
