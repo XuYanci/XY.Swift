@@ -24,6 +24,7 @@ import UIKit
 
 var str = "Hello, playground"
 
+
 protocol callable {
     func call()   // 行为: 叫
 }
@@ -209,3 +210,21 @@ var animals: [Any] = []
 //array.append(swiftString)
 animals.append(dog)
 animals.append(pig)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
