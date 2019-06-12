@@ -85,7 +85,7 @@ protocol Amphibian {
 
 extension Animal {
     
-    //  var words:String  {return "Animal"}
+      var words:String  {return "Animal"}
     
     //  func call() {
     //    print("Animal call")
@@ -211,17 +211,80 @@ var animals: [Any] = []
 animals.append(dog)
 animals.append(pig)
 
+// POP Ques
+protocol Pizzeria {
+    func makePizza(_ingredients:[String])
+//    func makeMargherita()
+}
 
+extension Pizzeria {
+    func makeMargherita() {
+        return makePizza(_ingredients: ["tomato","mozzarella"])
+    }
+    
+    func makePizza(_ingredients:[String]) {
+         print(_ingredients);
+    }
+}
 
+struct Lombardis:Pizzeria {
+//    func makePizza(_ingredients:[String]) {
+//        print(_ingredients);
+//    }
+    func makeMargherita() {
+        return makePizza(_ingredients: ["tomato","basil","mozzarella"])
+    }
+}
 
+let lombardis1:Pizzeria = Lombardis();
+let lombardis2:Lombardis = Lombardis();
+lombardis1.makeMargherita();
+lombardis2.makeMargherita();
 
+// 同质和异质
+//protocol Summable {
+//    func sumToArray(array: []) -> Summable
+//}
+//
+//
+//extension Int: Summable {
+//    func sumToArray(array: [Summable]) -> Summable {
+//        return array.reduce(self) { first, second in
+//            if let second = (second as? Int) {
+//                return first + second
+//            }
+//
+//
+//            return first
+//        }
+//    }
+//}
+//
+//extension String: Summable {
+//    func sumToArray(array: [Summable]) -> Summable {
+//        return array.reduce(self) { first, second in
+//            if let second = (second as? String) {
+//                return first + second
+//            }
+//            return first
+//        }
+//    }
+//}
 
+protocol Summable {
+    func sumToArray(array: [Self]) -> Self
+}
 
-
-
-
-
-
+extension Int: Summable {
+    func sumToArray(array: [Int]) -> Int {
+        return array.reduce(self, +)
+    }
+}
+extension String: Summable {
+    func sumToArray(array: [String]) -> String {
+        return array.reduce("") { $0 + $1 } + self
+    }
+}
 
 
 
