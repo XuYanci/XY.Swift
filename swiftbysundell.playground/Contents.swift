@@ -54,65 +54,7 @@ class B1 :A1 {
     }
 }
 
-extension A1 {
-    func a() {
-        i = 0;
-        j = 0;
-    }
-}
-
-protocol A {
-    var i:Int? {get set}
-}
-
-protocol B {
-    var i:Int? {get set}
-}
-
-class A2 : A{
-    var i: Int?
-}
-
-protocol aAble {
-    func a()
-}
-
-protocol bAble {
-    func b()
-}
-
-protocol abAble: aAble , bAble {
-    func ab()
-}
-
-class A_1 : aAble {
-    func a() {
-        
-    }
-   
-}
-
-class B_1 : bAble {
-    func b() {
-        
-    }
-    
-    
-}
-
-class AB_1:abAble {
-    func ab() {
-         
-    }
-    
-    func a() {
-        
-    }
-    
-    func b() {
-        
-    }
-}
+// filter,map
 
 func hashtags(in string: String) -> [String] {
     let words = string.components(
@@ -150,3 +92,34 @@ func convertToInt(_ string: String?) -> Int? {
 //func convertToInt(_ string: String?) -> Int? {
 //    return string.map { Int($0) ?? 0 }
 //}
+
+/// https://stackoverflow.com/questions/24021093/error-in-swift-class-property-not-initialized-at-super-init-call
+/// What about objc? because objc is not type safe
+class Shape {
+    var name: String
+    var sides : Int
+    init(sides:Int, named: String) {
+        self.sides = sides
+        self.name = named
+        printShapeDescription()
+    }
+    func printShapeDescription() {
+        print("Shape Name :\(self.name)")
+        print("Sides :\(self.sides)")
+    }
+}
+
+class Triangle: Shape {
+    var hypotenuse: Int
+    init(hypotenuse:Int) {
+        self.hypotenuse = hypotenuse
+        super.init(sides: 3, named: "Triangle")
+    }
+
+    override func printShapeDescription() {
+        super.printShapeDescription()
+        print("Hypotenuse :\(self.hypotenuse)")
+    }
+}
+
+let triangle = Triangle(hypotenuse: 12)
