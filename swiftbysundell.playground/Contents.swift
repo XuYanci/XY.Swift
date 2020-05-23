@@ -123,3 +123,41 @@ class Triangle: Shape {
 }
 
 let triangle = Triangle(hypotenuse: 12)
+
+// https://stackoverflow.com/questions/25156377/what-is-the-difference-between-static-func-and-class-func-in-swift
+
+class MyClass {
+    class func myFunc() {
+        print("myClass")
+    }
+}
+
+class MyOtherClass: MyClass {
+    override class func myFunc() {
+        print("myOtherClass")
+    }
+}
+
+
+var x: MyClass = MyOtherClass()
+type(of: x).myFunc() //myOtherClass
+x = MyClass()
+type(of: x).myFunc() //myClass
+
+var string = "12121"
+var keyword = "12"
+ 
+
+var string1 = string
+
+while((string1 as NSString).range(of: keyword).location != NSNotFound) {
+    let _r1 = string1.range(of: keyword)
+    string1.removeSubrange(_r1!)
+    print(_r1)
+}
+
+
+ 
+var users: [Int: Bool] = [:]
+users[21069] = true
+
